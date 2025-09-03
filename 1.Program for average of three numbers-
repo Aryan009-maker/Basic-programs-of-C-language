@@ -1,0 +1,13 @@
+1.Program for average of three numbers-
+
+//program for average of 3 numbers 
+#include<stdio.h>
+int main() {
+    float num1,num2,num3,average; 
+    printf("enter three numbers");
+    scanf("%f",&num1,&num2,&num3,&average);
+    average=(num1+num2+num3/3);
+    printf("the average is:%f/n",average);
+
+    return 0;
+} 
