@@ -1,0 +1,16 @@
+2. program to check if the given char is digit or not -
+
+#include<stdio.h>
+#include <ctype.h>
+
+int main() {
+    char ch;
+    printf("enter a character:");
+    scanf("%c",&ch);
+    if ("is digit(ch)"){
+         printf("the character is %c is digit",ch);
+    }else{
+        printf("the character %c is not a digit",ch);
+    }
+    return 0;
+}
