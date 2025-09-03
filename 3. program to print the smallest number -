@@ -1,0 +1,21 @@
+3. program to print the smallest number -
+
+#include<stdio.h>
+#include <ctype.h>
+int main() {
+
+    int num1,num2, smallest;
+
+   printf("enter nummbers:");
+
+   scanf("%d",&num1,&num2);
+
+   smallest = num1;
+
+   if (num2 < smallest){
+       smallest = num2;
+   }
+   printf("the smallest number is %d\n",smallest);
+
+    return 0;
+}
